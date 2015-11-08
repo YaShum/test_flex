@@ -1,0 +1,32 @@
+
+/* контейнер навигации */
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+/* форма для поля поиска в навигации */
+
+.form {
+    height: 48px;
+	flex: none;
+}
+
+.search {
+    display: block;
+    margin: 0;
+    padding: 0 4px;
+    width: 20%;
+    height: 48px;
+    color: #6d6d6d;
+    background-color: #fff;
+    border: solid 2px #e7e7e7;
+	transition: width 0.3s;
+}
+
+.search:focus {
+    outline: none;
+    border: solid 2px #6d6d6d;
+	width: 400px; /*ту ширину, которая нужна при открывании*/
+}
